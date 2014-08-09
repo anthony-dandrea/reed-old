@@ -1,3 +1,4 @@
+<?php $coupons[] = array('code' => "REED420", 'text' => "$5 Off!", 'from' => "2014-02-03", 'to' => "2019-04-04", 'type' => "$", 'value' => 5.00, 'apply' => "4RW6"); ?>
 <?php $coupons[] = array('code' => "REED420", 'text' => "$5 Off!", 'from' => "2014-02-03", 'to' => "2019-04-04", 'type' => "$", 'value' => 5.00, 'apply' => "4RW5"); ?>
 <?php $coupons[] = array('code' => "REED420", 'text' => "$5 Off!", 'from' => "2014-02-03", 'to' => "2019-04-04", 'type' => "$", 'value' => 5.00, 'apply' => "4RW4"); ?>
 <?php $coupons[] = array('code' => "REED420", 'text' => "$5 Off!", 'from' => "2013-07-21", 'to' => "2019-06-02", 'type' => "$", 'value' => 5.00, 'apply' => "4RW3"); ?>
