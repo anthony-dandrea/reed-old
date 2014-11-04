@@ -340,7 +340,7 @@ else {
 
 <!-- beginning Grey Pizza Reed Shirt -->
 <div class="rcItem column1" id="rcItem10">
-<input type="hidden" name="sku" value="reedt" />
+<input type="hidden" name="sku" value="ReedT" />
 <input type="hidden" name="name" value="Grey Pizza T-Shirt" />
 <input type="hidden" name="price" value="20.0000" />
 <input type="hidden" name="taxes" value="0.0000" />
@@ -352,19 +352,25 @@ else {
 <tr>
 <td class="rcItemImage">
 <div class="rcItemThumb">
-<a href="product_files/10_Pizza_Shirt.jpg" rel="remooz"><img id="rcThumb10" src="product_files/10_Pizza_Shirt_thumb.jpg" alt="Pizza Tee" style="box-shadow: 3px 2px 4px 0px #888888;" /></a>
+<a href="product_files/10_Pizza_Shirt.jpg" rel="remooz"><img id="rcThumb10" src="product_files/10_Pizza_Shirt_thumb.jpg" alt="Wizard Sythe T-Shirt" /></a>
 </div>
 </td>
 <td>
 <div class="rcItemName">Pizza T-Shirt</div>
-<div class="rcItemDescription">90% Cotton, 10% Polyester<br/>Free Shipping<br/>Made in the U.S.</div>
-
+<div class="rcItemDescription">90% Cotton<br/>10% Polyester<br/>Free Shipping<br/>Made in the U.S.</div>
+<div class="rcItemOption">
+Size
+<input type="hidden" name="rcItemOptionName" value="Size" />
+<select name="rcItemOptionValue" onchange="rc.changeOption('10', this);">
+<option value="Small" price="0.0000" taxes="0.0000" weight="0.000000">Small</option><option value="Medium" price="0.0000" taxes="0.0000" weight="0.000000">Medium</option><option value="Large" price="0.0000" taxes="0.0000" weight="0.000000">Large</option><option value="Extra Large" price="0.0000" taxes="0.0000" weight="0.000000">Extra Large</option>
+</select>
+</div>
 <div class="rcItemInfo">
 
 <div class="rcItemPrice">$ 20.00</div>
 <div class="rcItemButtons">
 <span style="display: none;"><input type="text" name="quantity" value="1" size="3" /> &times; </span>
-<input type="button" value="Add to cart" onclick="rc.addItem('10', this);"  />
+<input type="button" value="Add to cart" onclick="rc.addItem('10', this);" />
 </div>
 </div>
 </td>
